@@ -26,5 +26,5 @@ while (play_again != 'n' and play_again != 'no'):   # while play_again does not 
     if (count < best_count):                            # another if then statement. If the number of guesses is less than the max number of guesses the user has already made then...
         print('This was your best guess so far!')       #it prints the statement in quotes
         best_count = count                              #and it logs the new count amount as your new lowest number of guesses
-           play_again = input("\nWould you like to play again? ").lower().strip() #Then it promts the user about whether they would like to play again
+        play_again = input("\nWould you like to play again? ").lower().strip() #Then it promts the user about whether they would like to play again
 print('Thanks for playing!')                        #If the user says no, it ends the loop
